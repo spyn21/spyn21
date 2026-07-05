@@ -1,227 +1,156 @@
-# InterviewAI — AI-Powered Interview Preparation Platform
+<div align="center">
 
-> Upload your resume, paste a job description, and get a personalized interview strategy in ~30 seconds — powered by Google Gemini.
+# Hi there, I'm Bhukya Naresh 👋
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)](https://expressjs.com/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Gemini](https://img.shields.io/badge/Google-Gemini%20AI-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+### Full-Stack SDE | React.js & Node.js | AI/LLM Integration | IIT Roorkee '26
 
----
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Full-Stack+SDE+from+IIT+Roorkee;React.js+and+Node.js+Developer;Building+AI-powered+web+apps;Open+to+SDE+roles+in+2026" alt="Typing SVG" />
 
-## Why this project?
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bhukya-naresh-440291223)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhukyanaresh983@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spyn21)
+[![Resume](https://img.shields.io/badge/Resume-PDF-red?style=for-the-badge)](https://github.com/spyn21/SPYN21/blob/main/RESUME.pdf)
 
-Job interviews are high-stakes and preparation is often generic. **InterviewAI** bridges that gap by analyzing a candidate's profile against a specific job posting and producing actionable, role-specific guidance — not just generic tips.
+![Profile Views](https://komarev.com/ghpvc/?username=spyn21&style=for-the-badge&color=2E9EF7)
 
-This project demonstrates end-to-end **full-stack development** combined with **production-minded GenAI integration**: structured JSON output via Zod schemas, PDF parsing, server-side PDF generation, and secure authentication.
-
----
-
-## Key highlights (for recruiters)
-
-| Area | What I built |
-|------|----------------|
-| **GenAI integration** | Google Gemini with Zod-validated structured JSON responses (match score, Q&A, skill gaps, prep plan) |
-| **Full-stack architecture** | React SPA + REST API + MongoDB with JWT cookie-based auth |
-| **File processing** | Resume PDF upload, text extraction, and AI-tailored resume PDF export via Puppeteer |
-| **Security** | bcrypt password hashing, HTTP-only cookies, JWT verification, token blacklist on logout |
-| **UX** | Protected routes, loading states, expandable question cards, match score visualization |
+</div>
 
 ---
 
-## Features
+## 🚀 About Me
 
-- **User authentication** — Register, login, logout with session persistence
-- **Smart interview reports** — AI-generated match score, technical & behavioral questions with model answers
-- **Skill gap analysis** — Severity-tagged gaps (low / medium / high)
-- **Day-wise prep roadmap** — Structured multi-day preparation plan
-- **Tailored resume export** — Download a job-specific, ATS-friendly resume as PDF
-- **Report history** — View and revisit past interview strategies
-
----
-
-## Tech stack
-
-### Frontend
-- React 19 · Vite 7 · React Router 7
-- Axios (credentials / cookies)
-- SCSS (component-scoped styling)
-
-### Backend
-- Node.js · Express 5
-- MongoDB · Mongoose
-- Google GenAI SDK (`@google/genai`)
-- Zod + `zod-to-json-schema` for structured AI output
-- Multer (in-memory file upload) · pdf-parse · Puppeteer (PDF generation)
-- JWT · bcryptjs · cookie-parser
+- 🎓 BS-MS in **Mathematics and Computing** @ **IIT Roorkee** (2021 – 2026)
+- 💻 Full-stack developer working across **React.js, Node.js, Express.js**, and SQL/NoSQL databases
+- 🤖 Genuinely curious about **AI/LLM integration** — from RoBERTa-based NLP to running **Gemma 2B** locally in-browser via WebLLM/WebGPU
+- 🏢 Previously interned as a **Frontend Developer** at **UPNYX**, building a marketing automation platform
+- 📈 Solved **300+ DSA problems** across LeetCode, GeeksforGeeks, and Codeforces
+- 🌱 Currently looking for **Full-Stack SDE roles** for 2026 — let's connect!
 
 ---
 
-## Architecture
+## 🛠️ Tech Stack
 
-```mermaid
-flowchart TB
-    subgraph Client["React Frontend (Vite)"]
-        UI[Pages: Login · Home · Interview Report]
-        API_CLIENT[Axios API Layer]
-    end
+**Languages**
 
-    subgraph Server["Express Backend"]
-        AUTH[Auth Routes + JWT Middleware]
-        INTERVIEW[Interview Routes]
-        AI[AI Service — Gemini]
-        PDF[Puppeteer PDF Generator]
-    end
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-    DB[(MongoDB)]
+**Frontend**
 
-    UI --> API_CLIENT
-    API_CLIENT -->|HTTP + Cookies| AUTH
-    API_CLIENT -->|multipart/form-data| INTERVIEW
-    AUTH --> DB
-    INTERVIEW --> AI
-    INTERVIEW --> PDF
-    INTERVIEW --> DB
-    AI -->|Structured JSON| INTERVIEW
-```
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
----
+**Backend**
 
-## Project structure
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 
-```
-interview-ai/
-├── Backend/
-│   ├── server.js                 # Entry point
-│   └── src/
-│       ├── app.js                # Express app & middleware
-│       ├── config/database.js    # MongoDB connection
-│       ├── controllers/          # Auth & interview logic
-│       ├── middlewares/          # JWT auth, file upload
-│       ├── models/               # User, InterviewReport, Blacklist
-│       ├── routes/               # API routes
-│       └── services/ai.service.js # Gemini + PDF generation
-│
-└── Frontend/
-    └── src/
-        ├── features/
-        │   ├── auth/             # Login, register, protected routes
-        │   └── interview/        # Home, report view, API hooks
-        ├── app.routes.jsx
-        └── App.jsx
-```
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**AI / ML**
+
+![RoBERTa](https://img.shields.io/badge/RoBERTa-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Gemma 2B](https://img.shields.io/badge/Gemma_2B-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![WebLLM](https://img.shields.io/badge/WebLLM-FF6F00?style=for-the-badge&logoColor=white)
+![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge&logoColor=white)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
-## Getting started
+## 💼 Top Projects
 
-### Prerequisites
+### 🏥 [Healthcare Chatbot](https://github.com/spyn21/healthcare_chatbot)
+`Jan 2026 – Feb 2026 · Self Project`
 
-- [Node.js](https://nodejs.org/) v18+
-- [MongoDB](https://www.mongodb.com/try/download/community) (local or [Atlas](https://www.mongodb.com/cloud/atlas))
-- [Google Gemini API key](https://aistudio.google.com/apikey)
+Full-stack AI chatbot for symptom analysis and recommendations.
+- Architected the app with **React (Vite)** on the frontend and **Node.js/Express** on the backend
+- Integrated a **RoBERTa-based NLP model** with a rule-based fallback for low-confidence predictions
+- Polished the UX with typing effects, avatar-based chat, auto-scroll, and secure API token handling
 
-### 1. Clone the repository
+`React` `Vite` `Node.js` `Express` `RoBERTa`
 
-```bash
-git clone https://github.com/YOUR_USERNAME/interview-ai.git
-cd interview-ai
-```
+### 🏢 [Smart Asset Management & Resource Allocation Platform](https://github.com/spyn21/Smart-Asset-Management-And-Resource-Allocation-Platform)
+`Apr 2026 · IIT Roorkee`
 
-### 2. Backend setup
+Full-stack booking platform for allocating shared institutional resources.
+- Engineered the platform with **React, Node.js, Express, PostgreSQL,** and **Prisma**, with role-based access control
+- Developed **13 REST API endpoints** with JWT/bcrypt authentication and date-overlap conflict prevention
+- Built a **Recharts** analytics dashboard tracking bookings across 7 categories; containerized with **Docker**
 
-```bash
-cd Backend
-npm install
-cp .env.example .env
-# Edit .env with your MongoDB URI, JWT secret, and Gemini API key
-npm run dev
-```
+`React` `Node.js` `PostgreSQL` `Prisma` `Docker`
 
-Server runs at **http://localhost:3000**
+### 📚 [WatchListAI – Smart Reading & Watch Tracker](https://github.com/spyn21/reading-watchlist-ai)
+`Nov 2025 – Dec 2025 · GDSC`
 
-### 3. Frontend setup
+A reading/watch tracker with on-device AI summarization, shipped as a web dashboard + Chrome extension.
+- Built a **React/Tailwind** dashboard and a **Manifest V3 Chrome extension** for one-click content capture
+- Integrated Google's **Gemma 2B IT** model via **WebLLM/WebGPU** for local, in-browser summarization (~1.5GB model, with CPU fallback)
+- Used **Firebase** for authentication and storage
 
-Open a new terminal:
+`React` `Tailwind` `WebLLM` `WebGPU` `Firebase`
 
-```bash
-cd Frontend
-npm install
-npm run dev
-```
+### 📖 [BookStoreApp](https://github.com/spyn21/bookStoreApp)
+`Apr 2025 · MDG`
 
-App runs at **http://localhost:5173**
+RESTful backend for managing books and users.
+- Built RESTful APIs with **Node.js** and **Express.js** for book and user management
+- Implemented authentication, role-based access control, and CRUD operations
+- Modeled and queried data with **MongoDB/Mongoose**, including schema validation
 
-### Environment variables
-
-| Variable | Description |
-|----------|-------------|
-| `MONGO_URI` | MongoDB connection string |
-| `JWT_SECRET` | Secret for signing JWT tokens |
-| `GOOGLE_GENAI_API_KEY` | Google Gemini API key |
+`Node.js` `Express` `MongoDB` `Mongoose`
 
 ---
 
-## API overview
+## 📊 GitHub Stats
 
-| Method | Endpoint | Description | Auth |
-|--------|----------|-------------|------|
-| `POST` | `/api/auth/register` | Create account | Public |
-| `POST` | `/api/auth/login` | Login | Public |
-| `GET` | `/api/auth/logout` | Logout & blacklist token | Public |
-| `GET` | `/api/auth/get-me` | Current user | Private |
-| `POST` | `/api/interview/` | Generate interview report | Private |
-| `GET` | `/api/interview/` | List user's reports | Private |
-| `GET` | `/api/interview/report/:id` | Get report by ID | Private |
-| `POST` | `/api/interview/resume/pdf/:id` | Download tailored resume PDF | Private |
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=spyn21&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Naresh's GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=spyn21&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=spyn21&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
-## Screenshots
+## 🏅 Achievements
 
-> Add screenshots or a short demo GIF here before sharing with recruiters — visual proof of a polished UI makes a strong first impression.
-
-| Home — Create interview plan | Report — Questions & roadmap |
-|------------------------------|------------------------------|
-| _screenshot-home.png_ | _screenshot-report.png_ |
+- 🥇 HOD's Letter of Appreciation for academic excellence — Spring 2025–26
+- 🎯 AIR 7591 in JEE Advanced, out of 2.5 lakh candidates
 
 ---
 
-## What I learned
+## 📫 Connect with Me
 
-- Designing **structured LLM outputs** with Zod schemas instead of parsing free-form text
-- Building a **secure auth flow** with HTTP-only cookies and token blacklisting
-- Handling **file uploads** and PDF text extraction in a Node.js API
-- Generating **dynamic PDFs** from AI-produced HTML using Puppeteer
-- Organizing a React app with **feature-based folders**, context, and custom hooks
+<p align="center">
+  <a href="https://linkedin.com/in/bhukya-naresh-440291223"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:bhukyanaresh983@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/spyn21"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
----
+<div align="center">
 
-## Known limitations & future improvements
+*Open to Full-Stack SDE opportunities — thanks for stopping by!* 🚀
 
-- [ ] Add logout button in the UI (backend support exists)
-- [ ] Validate resume/self-description before API call
-- [ ] Support DOCX resume upload (UI mentions it; backend currently parses PDF only)
-- [ ] Environment-based API URL for frontend deployment
-- [ ] User-facing error toasts instead of console-only errors
-- [ ] Deploy to production (Vercel + Render/Railway + MongoDB Atlas)
-- [ ] Add unit/integration tests
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Author
-
-**Naresh**
-
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
-
----
-
-*Built as a portfolio project demonstrating full-stack development and practical GenAI integration.*
+</div>
