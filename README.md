@@ -99,7 +99,7 @@ A hybrid AI agent combining RAG and real-time web search.
 
 `LangGraph` `FastAPI` `Streamlit` `Pinecone` `Groq` `Tavily`
 
-### 🎤 [AI-Powered Technical Interview Platform](https://github.com/spyn21](https://github.com/spyn21/AI-Powered-Technical-Interview-Platform))
+### 🎤 [AI-Powered Technical Interview Platform](https://github.com/spyn21/AI-Powered-Technical-Interview-Platform)
 `2026 · IIT Roorkee`
 
 A full-stack platform for automated technical interview practice and feedback.
