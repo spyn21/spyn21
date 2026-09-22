@@ -80,7 +80,7 @@
 
 ## 💼 Top Projects
 
-### 🩺 [AI-Powered Medical Query Assistant (RAG)](https://github.com/spyn21)
+### 🩺 [AI-Powered Medical Query Assistant (RAG)]([https://github.com/spyn21](https://github.com/spyn21/AI-Powered-Medical-Query-Assistant-RAG))
 `2026 · IIT Roorkee`
 
 A Flask-based medical chatbot answering health queries using retrieval-augmented generation.
@@ -89,7 +89,7 @@ A Flask-based medical chatbot answering health queries using retrieval-augmented
 
 `Flask` `LangChain` `OpenAI` `Pinecone` `RAG`
 
-### 🔎 [Adaptive RAG Agent with Real-Time Search](https://github.com/spyn21)
+### 🔎 [Adaptive RAG Agent with Real-Time Search](https://github.com/spyn21/Adaptive-RAG-Agent-with-Real-Time-Search)
 `2026 · IIT Roorkee`
 
 A hybrid AI agent combining RAG and real-time web search.
@@ -99,7 +99,7 @@ A hybrid AI agent combining RAG and real-time web search.
 
 `LangGraph` `FastAPI` `Streamlit` `Pinecone` `Groq` `Tavily`
 
-### 🎤 [AI-Powered Technical Interview Platform](https://github.com/spyn21)
+### 🎤 [AI-Powered Technical Interview Platform]([https://github.com/spyn21](https://github.com/spyn21/AI-Powered-Technical-Interview-Platform))
 `2026 · IIT Roorkee`
 
 A full-stack platform for automated technical interview practice and feedback.
