@@ -80,7 +80,7 @@
 
 ## 💼 Top Projects
 
-### 🩺 [AI-Powered Medical Query Assistant (RAG)](https://github.com/spyn21](https://github.com/spyn21/AI-Powered-Medical-Query-Assistant-RAG))
+### 🩺 [AI-Powered Medical Query Assistant (RAG)](https://github.com/spyn21/AI-Powered-Medical-Query-Assistant-RAG)
 `2026 · IIT Roorkee`
 
 A Flask-based medical chatbot answering health queries using retrieval-augmented generation.
